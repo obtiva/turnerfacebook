@@ -6,7 +6,7 @@ development:
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
-  callback_url: http://cranberry.demo.obtiva.com/
+  callback_url: http://cranberry.demo.obtiva.com:8300/
   tunnel:
     public_host_username: mmangino
     public_host: cab.elevatedrails.com
@@ -15,23 +15,23 @@ development:
 
 
 test:
-  api_key: 
-  secret_key: 
-  canvas_page_name: 
-  callback_url:
+  api_key: b1d7ef613018a68ffec0fe199a8ba5c5
+  secret_key: 09d8b31acc4c16f73999326c236d9d3f
+  canvas_page_name: turnerkingapp
+  callback_url: http://cranberry.demo.obtiva.com:8300/
   tunnel:
-    public_host_username: 
-    public_host: 
-    public_port: 4007
+    public_host_username: mmangino
+    public_host: cab.elevatedrails.com
+    public_port: 3002
     local_port: 3000
 
 production:
-    api_key: b1d7ef613018a68ffec0fe199a8ba5c5
-    secret_key: 09d8b31acc4c16f73999326c236d9d3f
-    canvas_page_name: turnerkingapp
-    callback_url: http://cranberry.demo.obtiva.com/
-    tunnel:
-      public_host_username: mmangino
-      public_host: cab.elevatedrails.com
-      public_port: 3002
-      local_port: 3000
+  api_key: b1d7ef613018a68ffec0fe199a8ba5c5
+  secret_key: 09d8b31acc4c16f73999326c236d9d3f
+  canvas_page_name: turnerkingapp
+  callback_url: http://cranberry.demo.obtiva.com:8300/
+  tunnel:
+    public_host_username: mmangino
+    public_host: cab.elevatedrails.com
+    public_port: 3002
+    local_port: 3000
