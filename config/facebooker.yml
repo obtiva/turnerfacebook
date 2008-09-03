@@ -6,7 +6,7 @@ development:
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
-  callback_url: http://cranberry.demo.obtiva.com:8300/
+  callback_url: http://cranberry.demo.obtiva.com/
   tunnel:
     public_host_username: mmangino
     public_host: cab.elevatedrails.com
@@ -18,7 +18,7 @@ test:
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
-  callback_url: http://cranberry.demo.obtiva.com:8300/
+  callback_url: http://cranberry.demo.obtiva.com/
   tunnel:
     public_host_username: mmangino
     public_host: cab.elevatedrails.com
@@ -29,7 +29,7 @@ production:
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
-  callback_url: http://cranberry.demo.obtiva.com:8300/
+  callback_url: http://cranberry.demo.obtiva.com/
   tunnel:
     public_host_username: mmangino
     public_host: cab.elevatedrails.com
