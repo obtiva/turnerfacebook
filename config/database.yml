@@ -16,6 +16,5 @@ test:
 production:
   adapter: mysql
   database: turner_prod
-  username: cranberrry
-  password: prototype
-  socket: /tmp/mysql.sock
+  username: deploy
+  password: b3tt3rid3a
