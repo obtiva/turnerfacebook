@@ -261,3 +261,255 @@ Processing InvitationsController#new (for 127.0.0.1 at 2008-07-24 18:20:55) [GET
   Parameters: {"fb_sig_time"=>"1216938055.1884", "fb_sig"=>"7ff93b949b47bbc1fcf93cd3ec815e16", "fb_sig_in_new_facebook"=>"1", "_method"=>"GET", "fb_sig_locale"=>"en_US", "action"=>"new", "fb_sig_session_key"=>"1d24e989331de4792c03eae5-12451752", "fb_sig_position_fix"=>"1", "fb_sig_in_canvas"=>"1", "fb_sig_request_method"=>"GET", "controller"=>"invitations", "fb_sig_expires"=>"0", "fb_sig_friends"=>"714004,1236115,1901714,1947244,1950878,2200981,2221404,2901186,2904893,3501664,8842239,9507801,9805679,10101244,12414017,12415699,12447608,12457362,12459071,13741672,14810654,20923062,22007799,22012102,157200364,500091955,500233761,501012646,502985816,505289634,506753749,506794518,515498703,517329721,521180570,523551926,525647577,531100365,531205233,531348236,531428361,531555098,531586166,531685187,533299745,534954841,537281555,538750748,539250231,539693267,548500085,552743294,563710619,566955936,570052321,576951428,579398979,579916874,587412625,591790989,596269347,602317055,605506522,605643681,612846152,620122945,627421309,628276445,628290162,628765923,641030541,641370732,644662928,650052106,651202640,656127126,671602728,674447519,692096230,692474489,698856836,708753055,710732475,718976395,719263455,721234666,724146195,729061512,740192698,744961110,745267875,746969550,747739523,751604267,752041272,762879027,763825642,763868412,763897854,773169551,788511623,794230713,795141561,797778605,809827607,814673555,824298241,830904376,860325303,906690413,1018227614,1024186567,1042830137,1045310375,1059001007,1089690140,1106173248,1125579457,1131243382,1143349616,1192117135,1215200584,1220594020,1250947664,1275579143,1310793354,1312581090,1317636778,1326711372,1509030176", "fb_sig_added"=>"1", "fb_sig_api_key"=>"e34ec276c93b8b443fd15691c57908c5", "fb_sig_ext_perms"=>"status_update", "fb_sig_user"=>"12451752", "fb_sig_profile_update_time"=>"1216171065"}
 Rendering invitations/new
 Completed in 0.00635 (157 reqs/sec) | Rendering: 0.00200 (31%) | DB: 0.00000 (0%) | 200 OK [http://web1.tunnlr.com/invitations/new]
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.001710)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000185)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.002474)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.001714)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000417)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000259)[0m   [0mSELECT version FROM "schema_info"[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.001386)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('1')[0m
+  [4;36;1mSQL (0.001425)[0m   [0;1mDROP TABLE "schema_info"[0m
+  [4;35;1mSQL (0.000324)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;35;1mSQL (0.000208)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001966)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "facebook_id" integer(20) NOT NULL, "session_key" varchar(255) DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.001576)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080903164059')[0m
+  [4;36;1mSQL (0.000349)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000369)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000352)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.000173)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;35;1mSQL (0.000062)[0m   [0mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.000919)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000297)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;35;1mSQL (0.000299)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;36;1mSQL (0.000360)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateMoves (20080903173258)
+  [4;35;1mSQL (0.000206)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.002168)[0m   [0mCREATE TABLE "moves" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL NULL, "image_name" varchar(255) DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.001536)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080903173258')[0m
+  [4;35;1mSQL (0.000401)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000576)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000061)[0m   [0mPRAGMA index_list("moves")[0m
+  [4;36;1mSQL (0.000205)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.000121)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;35;1mSQL (0.000052)[0m   [0mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mMove Create (0.000487)[0m   [0;1mINSERT INTO "moves" ("name", "updated_at", "image_name", "created_at") VALUES('Karate Chop', '2008-09-03 12:46:04', NULL, '2008-09-03 12:46:04')[0m
+  [4;35;1mMove Create (0.000508)[0m   [0mINSERT INTO "moves" ("name", "updated_at", "image_name", "created_at") VALUES('Headbutt', '2008-09-03 12:46:33', NULL, '2008-09-03 12:46:33')[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.001053)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000463)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000266)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000226)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;36;1mSQL (0.000217)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;35;1mSQL (0.000215)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMoves (20080903173258)
+  [4;36;1mSQL (0.000216)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateAttacks (20080903173946)
+  [4;35;1mSQL (0.000215)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.143784)[0m   [0mCREATE TABLE "attacks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "attacking_user_id" integer DEFAULT NULL NULL, "defending_user_id" integer DEFAULT NULL NULL, "move_id" integer DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.001421)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080903173946')[0m
+Migrating to CreateBelts (20080903175415)
+  [4;35;1mSQL (0.000479)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001889)[0m   [0;1mCREATE TABLE "belts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL NULL, "level" integer DEFAULT NULL NULL, "next_belt_id" integer DEFAULT NULL NULL, "minimum_hits" integer DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.001915)[0m   [0mALTER TABLE "users" ADD "belt_id" integer[0m
+  [4;36;1mSQL (0.007106)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.002238)[0m   [0mALTER TABLE "moves" ADD "difficulty_level" integer[0m
+  [4;36;1mSQL (0.006758)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.002139)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080903175415')[0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000494)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000087)[0m   [0;1mPRAGMA index_list("attacks")[0m
+  [4;35;1mSQL (0.000070)[0m   [0mPRAGMA index_list("belts")[0m
+  [4;36;1mSQL (0.000056)[0m   [0;1mPRAGMA index_list("moves")[0m
+  [4;35;1mSQL (0.000174)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.000118)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.000048)[0m   [0;1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mUser Load (0.000828)[0m   [0;1mSELECT * FROM "users" [0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.001136)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000543)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000301)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000284)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000281)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000279)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;36;1mSQL (0.000282)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;35;1mSQL (0.000400)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMoves (20080903173258)
+  [4;36;1mSQL (0.000308)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateAttacks (20080903173946)
+  [4;35;1mSQL (0.000284)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBelts (20080903175415)
+  [4;36;1mSQL (0.000284)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddSenseiIdToUser (20080903182116)
+  [4;35;1mSQL (0.000281)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.037277)[0m   [0mALTER TABLE "users" ADD "sensei_id" integer[0m
+  [4;36;1mSQL (0.006598)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.001680)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080903182116')[0m
+  [4;36;1mSQL (0.000445)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000347)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mPRAGMA index_list("attacks")[0m
+  [4;35;1mSQL (0.000048)[0m   [0mPRAGMA index_list("belts")[0m
+  [4;36;1mSQL (0.000047)[0m   [0;1mPRAGMA index_list("moves")[0m
+  [4;35;1mSQL (0.000170)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.000117)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.000047)[0m   [0;1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.001144)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000469)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000315)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000315)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000314)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000311)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000311)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;35;1mSQL (0.000313)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;36;1mSQL (0.000318)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateMoves (20080903173258)
+  [4;35;1mSQL (0.000314)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateAttacks (20080903173946)
+  [4;36;1mSQL (0.000313)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBelts (20080903175415)
+  [4;35;1mSQL (0.000316)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSenseiIdToUser (20080903182116)
+  [4;36;1mSQL (0.000314)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddIndexes (20080903183031)
+  [4;35;1mSQL (0.000314)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.030924)[0m   [0;1mCREATE INDEX "index_attacks_on_attacking_user_id_and_created_at" ON "attacks" ("attacking_user_id", "created_at")[0m
+  [4;35;1mSQL (0.002494)[0m   [0mCREATE INDEX "index_attacks_on_defending_user_id_and_created_at" ON "attacks" ("defending_user_id", "created_at")[0m
+  [4;36;1mSQL (0.001610)[0m   [0;1mCREATE INDEX "index_users_on_facebook_id" ON "users" ("facebook_id")[0m
+  [4;35;1mSQL (0.001564)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080903183031')[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000400)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000343)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000176)[0m   [0mPRAGMA index_list("attacks")[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mPRAGMA index_info('index_attacks_on_defending_user_id_and_created_at')[0m
+  [4;35;1mSQL (0.000170)[0m   [0mPRAGMA index_info('index_attacks_on_attacking_user_id_and_created_at')[0m
+  [4;36;1mSQL (0.000047)[0m   [0;1mPRAGMA index_list("belts")[0m
+  [4;35;1mSQL (0.000047)[0m   [0mPRAGMA index_list("moves")[0m
+  [4;36;1mSQL (0.000193)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.000123)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;35;1mSQL (0.000120)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mPRAGMA index_info('index_users_on_facebook_id')[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+  [4;36;1mSQL (0.001285)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000496)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000354)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000347)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000346)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000345)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000366)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000368)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSessionTable (1)
+  [4;36;1mSQL (0.000346)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080903164059)
+  [4;35;1mSQL (0.000348)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMoves (20080903173258)
+  [4;36;1mSQL (0.000357)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateAttacks (20080903173946)
+  [4;35;1mSQL (0.000347)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBelts (20080903175415)
+  [4;36;1mSQL (0.000363)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddSenseiIdToUser (20080903182116)
+  [4;35;1mSQL (0.000353)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIndexes (20080903183031)
+  [4;36;1mSQL (0.000345)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTotalHitsToUser (20080903183220)
+  [4;35;1mSQL (0.000346)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.035185)[0m   [0mALTER TABLE "users" ADD "total_hits" integer[0m
+  [4;36;1mSQL (0.008485)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.002356)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080903183220')[0m
+  [4;36;1mSQL (0.000645)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000500)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000247)[0m   [0;1mPRAGMA index_list("attacks")[0m
+  [4;35;1mSQL (0.000244)[0m   [0mPRAGMA index_info('index_attacks_on_defending_user_id_and_created_at')[0m
+  [4;36;1mSQL (0.000241)[0m   [0;1mPRAGMA index_info('index_attacks_on_attacking_user_id_and_created_at')[0m
+  [4;35;1mSQL (0.000068)[0m   [0mPRAGMA index_list("belts")[0m
+  [4;36;1mSQL (0.000061)[0m   [0;1mPRAGMA index_list("moves")[0m
+  [4;35;1mSQL (0.000202)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.000188)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.000121)[0m   [0mPRAGMA index_info('index_users_on_facebook_id')[0m
