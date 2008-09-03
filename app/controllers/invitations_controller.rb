@@ -20,9 +20,7 @@ class InvitationsController < ApplicationController
   
   def update_profile
   	@user = facebook_session.user
-  	@user.profile_fbml = 
-  	render_to_string(:partial=>"profile",
-  	  :locals=>{:from=>params[:from]})	  
+  	@user.profile_fbml = render_to_string(:partial=>"profile", :locals=>{:from=>params[:from]})	  
   end
   
   
