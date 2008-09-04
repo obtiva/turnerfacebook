@@ -9,8 +9,9 @@
 ActionController::Routing::Routes.draw do |map|
   
   # Tell Rails to make invitations into a resource
-  map.resources :invitations
   map.resources :attacks
+  map.resources :invitations
+  
   # Use our new method as the default page
   map.battles '', :controller=>"attacks", :action=>"index"
   
