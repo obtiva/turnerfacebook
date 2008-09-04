@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   belongs_to :belt
-  has_many :attacks, :foreign_key=>:attacking_user_id 
+  has_many :attacks, :class_name=>"Attack", :foreign_key=>:attacking_user_id 
   has_many :defenses, :class_name=>"Attack", :foreign_key=>:defending_user_id
   belongs_to :sensei, :class_name=>"User", :foreign_key=>:sensei_id
   has_many :disciples, :class_name=>"User", :foreign_key=>:sensei_id
@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
       if a.hit?
         increment :total_hits
         if belt.should_be_upgraded?(self)
-          update_attribute(:belt, belt.next_belt)
+          self.belt = belt.next_belt
         end
       end
       save!
@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
   def battles(page=1)
     page ||= 1
     Attack.paginate(:all, :conditions=>["attacking_user_id=? or defending_user_id=?", self.id, self.id], 
-      :include=>[:attacking_user,:defending_user,:move], :order=>"attacks.created_at desc")
+      :include=>[:attacking_user,:defending_user,:move], :order=>"attacks.created_at desc", :page=>page, :per_page => 5)
   end
   
   def available_moves

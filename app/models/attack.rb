@@ -10,6 +10,5 @@ class Attack < ActiveRecord::Base
     returning true do
       self.hit = (rand(2) == 0)
     end
-  end
-  
+  end 
 end

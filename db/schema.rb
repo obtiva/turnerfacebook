@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080903183220) do
+ActiveRecord::Schema.define(:version => 20080904192416) do
 
   create_table "attacks", :force => true do |t|
     t.integer  "attacking_user_id"
@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20080903183220) do
     t.integer  "move_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "hit"
   end
 
   add_index "attacks", ["defending_user_id", "created_at"], :name => "index_attacks_on_defending_user_id_and_created_at"
