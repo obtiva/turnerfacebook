@@ -12,7 +12,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :invitations
   map.resources :attacks
   # Use our new method as the default page
-  map.battles 'battles', :controller=>"attacks", :action=>"index"
+  map.battles '', :controller=>"attacks", :action=>"index"
   
   # Install the default route as the lowest priority.
   map.connect ':controller/:action/:id'
