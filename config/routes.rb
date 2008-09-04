@@ -10,8 +10,9 @@ ActionController::Routing::Routes.draw do |map|
   
   # Tell Rails to make invitations into a resource
   map.resources :invitations
+  map.resources :attacks
   # Use our new method as the default page
-  map.root :controller=>"invitations", :action=>"new"
+  map.battles '', :controller=>"attacks", :action=>"index"
   
   # Install the default route as the lowest priority.
   map.connect ':controller/:action/:id.:format'
