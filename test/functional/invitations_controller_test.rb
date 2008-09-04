@@ -9,6 +9,29 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
 class InvitationsControllerTest < ActionController::TestCase
+  def test_new_invitation 
+    facebook_get :new 
+    assert_response :success 
+    assert_template 'new' 
+  end 
+  
+  def test_get_new_requires_user 
+    facebook_get :new, :fb_sig_user=>nil 
+    assert_facebook_redirect_to Facebooker::Session.create.login_url 
+  end
+  
+  def test_valid_create 
+    facebook_post :create, :ids=>["1234"] 
+    assert_response :success 
+    assert_template 'create' 
+  end
+  
+  def test_new_with_from_updates_profile
+    profile_expectation = "<fb:fbml>\n  I was sent here by <fb:name uid='1' />\n</fb:fbml>"
+    flexmock(Facebooker::User).new_instances.should_receive('profile_fbml=').once.with(profile_expectation)
+    facebook_get :new, :from=>1 
+    assert_response :success 
+  end
   # Replace this with your real tests.
   def test_truth
     assert true
