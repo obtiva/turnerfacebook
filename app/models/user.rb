@@ -22,8 +22,9 @@ class User < ActiveRecord::Base
     end
   end
   
-  def battles
-    Attack.find(:all, :conditions=>["attacking_user_id=? or defending_user_id=?", self.id, self.id], 
+  def battles(page=1)
+    page ||= 1
+    Attack.paginate(:all, :conditions=>["attacking_user_id=? or defending_user_id=?", self.id, self.id], 
       :include=>[:attacking_user,:defending_user,:move], :order=>"attacks.created_at desc")
   end
   

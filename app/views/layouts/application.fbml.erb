@@ -1,0 +1,12 @@
+<fb:fbml version="1.1">
+<%= stylesheet_link_tag "application"%>
+<%= fb_dashboard do %>
+	<%= fb_action "Invite your friends",new_invitation_path%> 
+<% end %>
+<% fb_tab do %>
+	<%= fb_tab_item "Your Battles", battle_path, :selected => !@battles.nil? %>
+	<%= fb_tab_item "Attack!", new_attack_path, :selected => @battles.nil? %>
+	<%= fb_tab_item "Help &amp; Feedback", fb_about_url, :align=>"right"%>
+<% end %>
+<%= yield%>
+</fb:fbml>

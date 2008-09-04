@@ -29,7 +29,7 @@ class AttacksController < ApplicationController
     else
       @user = current_user
     end
-    @battles = @user.battles
+    @battles = @user.battles(params[:page])
     if @battles.blank?
       flash[:notice]="You haven't battled anyone yet. Why don't you attack your friends?"
       redirect_to new_attack_path

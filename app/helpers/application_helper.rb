@@ -8,4 +8,12 @@
 #---
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
+  
+  def name(user,options={}) 
+    fb_name(user,{:ifcantsee=>"a hidden ninja"}.merge(options)) 
+  end 
+  
+  def attack_result(attack) 
+    attack.hit? ? "hit" : "missed" 
+  end
 end
