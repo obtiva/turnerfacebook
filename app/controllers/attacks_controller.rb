@@ -17,9 +17,9 @@ class AttacksController < ApplicationController
           misses << attack
         end
       end
-    end
-    flash[:notice] = "Your attack resulted in #{hits.size} " + (hits.size==1 ? "hit" : "hits") + " and #{misses.size} "+
-      (misses.size == 1 ? "miss" : "misses") + "."
+      flash[:notice] = "Your attack resulted in #{hits.size} " + (hits.size==1 ? "hit" : "hits") + " and #{misses.size} "+
+        (misses.size == 1 ? "miss" : "misses") + "."
+    end 
     redirect_to new_attack_path
   end
 
@@ -29,7 +29,7 @@ class AttacksController < ApplicationController
     else
       @user = current_user
     end
-    @battles = @user.battles(params[:page])
+    @battles = @user.battles
     if @battles.blank?
       flash[:notice]="You haven't battled anyone yet. Why don't you attack your friends?"
       redirect_to new_attack_path
