@@ -3,6 +3,7 @@
 # Your callback url in Facebook should be set to http://public_host:public_port
 
 development:
+  api: new
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
@@ -15,6 +16,7 @@ development:
 
 
 test:
+  api: new
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
@@ -26,6 +28,7 @@ test:
     local_port: 3000
 
 production:
+  api: new
   api_key: b1d7ef613018a68ffec0fe199a8ba5c5
   secret_key: 09d8b31acc4c16f73999326c236d9d3f
   canvas_page_name: turnerkingapp
