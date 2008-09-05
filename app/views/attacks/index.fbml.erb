@@ -15,9 +15,9 @@
 		<% end %>
 	<% end %>
 <% end %>
-<%= will_paginate(@battles) %>
+<%= will_paginate(@battles)%>
 <% for attack in @battles %> 
-<div class="battle" >
+<div class="battle" 
 	<%= image_tag attack.move.image_name %> 
 	<%= link_to(fb_name(attack.attacking_user, :linked=>false), battles_path(:user_id=>attack.attacking_user)) %> 
 	<%= attack_result(attack)%> 
