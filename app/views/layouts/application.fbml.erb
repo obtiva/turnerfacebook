@@ -5,7 +5,7 @@
 <% end %>
 <% fb_tabs do %>
 	<%= fb_tab_item "Your Battles", battles_path, :selected => !@battles.nil? %>
-	<%= fb_tab_item "Attack!", new_attack_path, :selected => @battles.nil? %>
+	<%= fb_tab_item "Attack!", attacks_path, :selected => @battles.nil? %>
 	<%= fb_tab_item "Help &amp; Feedback", fb_about_url, :align=>"right"%>
 <% end %>
 <%= yield%>
