@@ -17,6 +17,7 @@ class AttacksController < ApplicationController
           misses << attack
         end
       end
+      AttackPublisher.deliver_attack_feed(attack) rescue nil
       flash[:notice] = "Your attack resulted in #{hits.size} " + (hits.size==1 ? "hit" : "hits") + " and #{misses.size} "+
         (misses.size == 1 ? "miss" : "misses") + "."
     end 
