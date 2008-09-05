@@ -51,7 +51,7 @@ class AttackPublisher < Facebooker::Rails::Publisher
     from attack.attacking_user.facebook_session.user 
     data :result=>attack_result(attack), 
       :move=>attack.move.name, 
-      :defender=>name(attack.defending_user)
+      :defender=>name(attack.defending_user),
       :images=>[image(attack.move.image_name, new_attack_url)] 
   end
   
