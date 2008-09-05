@@ -20,6 +20,10 @@ class ApplicationController < ActionController::Base
   before_filter :set_current_user
   
   def set_current_user
-    self.current_user = User.for(facebook_session.user.to_i, facebook_session)
+    set_facebook_session 
+    # if the session isn't secured, we don't have a good user id 
+    if facebook_session and facebook_session.secured? 
+      self.current_user = User.for(facebook_session.user.to_i,facebook_session) 
+    end
   end
 end

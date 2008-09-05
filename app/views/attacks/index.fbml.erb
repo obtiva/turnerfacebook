@@ -3,11 +3,15 @@
 <% fb_if_is_user @user do %>
 	<% fb_else do %>
 		<hr /> 
-		<h3>Do you want to attack <%= fb_name @user%>?</h3> 
-		<% facebook_form_for Attack.new do |f| %> 
-			<%= f.collection_select :move_id, current_user.available_moves, :id, :name, :label=>"Move" %> <br /> 
-			<%= hidden_field_tag "ids[]", @user.facebook_id%> 
-			<%= f.buttons "Attack!" %> 
+		<% if current_user.blank? %> 
+			<h3><%=link_to "Add Karate Poke",new_attack_path%> to attack <%=name @user%></h3> 
+		<% else %>
+			<h3>Do you want to attack <%= fb_name @user%>?</h3> 
+			<% facebook_form_for Attack.new do |f| %> 
+				<%= f.collection_select :move_id, current_user.available_moves, :id, :name, :label=>"Move" %> <br /> 
+				<%= hidden_field_tag "ids[]", @user.facebook_id%> 
+				<%= f.buttons "Attack!" %>
+			<% end %> 
 		<% end %>
 	<% end %>
 <% end %>

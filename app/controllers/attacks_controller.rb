@@ -29,6 +29,10 @@ class AttacksController < ApplicationController
     else
       @user = current_user
     end
+    if @user.blank?
+      ensure_authenticated_to_facebook
+      return
+    end
     @battles = @user.battles
     if @battles.blank?
       flash[:notice]="You haven't battled anyone yet. Why don't you attack your friends?"
