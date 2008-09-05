@@ -42,8 +42,8 @@ class AttackPublisher < Facebooker::Rails::Publisher
     attack_back=link_to("Join the Battle!",new_attack_url)
     one_line_story_template "{*actor*} {*result*} {*defender*}"+" with a {*move*}. #{attack_back}"
     one_line_story_template "{*actor*} are doing battle using Karate Poke. #{attack_back}"
-    short_story_template "{*actor*} engaged in battle.", "{actor} {result} {defender} with a {move}. #{attack_back}"
-    short_story_template "{*actor*} are doing battle using Karate Poke.", "#{attack_back}"
+    short_story_template "{*actor*} engaged in battle.", "{*actor*} {*result*} {*defender*} with a {*move*}. #{attack_back}"
+    short_story_template "{*actor*} are doing battle using Karate Poke.","#{attack_back}"
   end
   
   def attack_feed(attack) 
