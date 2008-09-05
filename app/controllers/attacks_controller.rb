@@ -20,7 +20,7 @@ class AttacksController < ApplicationController
       flash[:notice] = "Your attack resulted in #{hits.size} " + (hits.size==1 ? "hit" : "hits") + " and #{misses.size} "+
         (misses.size == 1 ? "miss" : "misses") + "."
     end 
-    redirect_to new_attacks_path
+    redirect_to new_attack_path
   end
 
   def index
@@ -32,7 +32,7 @@ class AttacksController < ApplicationController
     @battles = @user.battles
     if @battles.blank?
       flash[:notice]="You haven't battled anyone yet. Why don't you attack your friends?"
-      redirect_to new_attacks_path
+      redirect_to new_attack_path
     end
   end
 
