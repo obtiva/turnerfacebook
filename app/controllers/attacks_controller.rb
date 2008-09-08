@@ -4,6 +4,7 @@ class AttacksController < ApplicationController
   def new
     if params[:from]
       current_user.update_attribute(:sensei, User.find(params[:from]))
+    end
   end
 
   def create
