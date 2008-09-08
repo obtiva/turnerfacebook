@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   belongs_to :belt
-  has_many :attacks, :class_name=>"Attack", :foreign_key=>:attacking_user_id 
+  has_many :attacks, :foreign_key=>:attacking_user_id 
   has_many :defenses, :class_name=>"Attack", :foreign_key=>:defending_user_id
   belongs_to :sensei, :class_name=>"User", :foreign_key=>:sensei_id
   has_many :disciples, :class_name=>"User", :foreign_key=>:sensei_id

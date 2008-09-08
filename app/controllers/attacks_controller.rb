@@ -10,7 +10,7 @@ class AttacksController < ApplicationController
       hits = []
       misses = []
       for id in params[:ids]
-        current_user.attack(User.for(id), attack.move)
+        attack = current_user.attack(User.for(id), attack.move)
         if attack.hit?
           hits << attack
         else
