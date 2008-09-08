@@ -25,4 +25,40 @@
 	with a <%= attack.move.name %> 
 </div> 
 <% end %>
-<%= fb_board "User_#{@user.id}" %>
+<script>
+function update_count(str,message_id) {
+	len=str.length;
+  if (len < 200) {
+	  $(message_id).setInnerXHTML("<span style='color: green'>"+
+	    (200-len)+" remaining</span>");
+  } else {
+	  $(message_id).setInnerXHTML("<span style='color: red'>"+
+	    "Comment too long. Only 200 characters allowed.</span>");
+  }
+}
+
+function update_multiple(json) {
+	for( var i=0; i<json["ids_to_update"].length; i++ ) {
+		id=json["ids_to_update"][i];
+		$(id).setInnerFBML(json["fbml_"+id]);
+	}
+}
+</script>
+<%= link_to_function "Talk some trash","$('comment_form').show();" %>: 
+<br /> 
+<div id="comment_form" style="display:none"> 
+	<% remote_form_for Comment.new,
+	 	:url=>comments_url(:canvas=>false),
+		:success=>"update_multiple(request)" do |f|%> 
+		<%= text_area_tag :body,"", 
+		:onchange=>"update_count(this.getValue(),'remaining');", 
+		:onkeyup=>"update_count(this.getValue(),'remaining');" 
+		%> <br /> 
+		<p id="remaining">&nbsp;</p> 
+		<%= hidden_field_tag :comment_receiver,@user.id %> 
+		<%= submit_tag 'Post' %> 
+	<% end %> 
+</div>
+<div id="all_comments"> 
+	<%= render :partial=>"comments/comments" %> 
+</div>
