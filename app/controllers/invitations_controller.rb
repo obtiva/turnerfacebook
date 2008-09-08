@@ -12,6 +12,12 @@ class InvitationsController < ApplicationController
   	  update_profile
   	end
   	@from_user_id = facebook_session.user.to_s
+  	friends_ids = params[:fb_sig_friends].split(/,/)
+  	@not_potential_disciples = current_user.friends_with_senseis(friends_ids).map(&:facebook_id)
+  end
+  
+  def index
+    redirect_to battles_path
   end
   
   def should_update_profile?

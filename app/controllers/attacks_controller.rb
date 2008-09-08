@@ -1,5 +1,7 @@
 class AttacksController < ApplicationController
   def new
+    if params[:from]
+      current_user.update_attribute(:sensei, User.find(params[:from]))
   end
 
   def create
@@ -38,6 +40,8 @@ class AttacksController < ApplicationController
     if @battles.blank?
       flash[:notice]="You haven't battled anyone yet. Why don't you attack your friends?"
       redirect_to new_attack_path
+    else
+      @comments = @user.comments
     end
   end
 

@@ -4,6 +4,8 @@ class User < ActiveRecord::Base
   has_many :defenses, :class_name=>"Attack", :foreign_key=>:defending_user_id
   belongs_to :sensei, :class_name=>"User", :foreign_key=>:sensei_id
   has_many :disciples, :class_name=>"User", :foreign_key=>:sensei_id
+  has_many :comments
+  has_many :made_comments, :class_name=>"Comment", :foreign_key=>:poster_id
   before_create :set_initial_belt
   
   def set_initial_belt
@@ -41,6 +43,10 @@ class User < ActiveRecord::Base
     location = fb_user.hometown_location
     text_location = "#{location.city} #{location.state}"
     text_location.blank? ? "an undisclosed location" : text_location
+  end
+  
+  def comment_on(user, body)
+    made_comments.create!(:user=>user, :body=>body)
   end
   
   def self.for(facebook_id, facebook_session=nil)

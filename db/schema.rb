@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080905160733) do
+ActiveRecord::Schema.define(:version => 20080908151128) do
 
   create_table "attacks", :force => true do |t|
     t.integer  "attacking_user_id"
@@ -31,6 +31,16 @@ ActiveRecord::Schema.define(:version => 20080905160733) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "comments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "poster_id"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "comments", ["user_id", "created_at"], :name => "index_comments_on_user_id_and_created_at"
 
   create_table "facebook_templates", :force => true do |t|
     t.string   "bundle_id"
