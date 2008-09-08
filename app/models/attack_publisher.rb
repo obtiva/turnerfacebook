@@ -55,4 +55,12 @@ class AttackPublisher < Facebooker::Rails::Publisher
       :images=>[image(attack.move.image_name, new_attack_url)] 
   end
   
+  def profile_update(user)
+    send_as :profile
+    recipients user.facebook_session.user
+    @battles=user.battles
+    profile render(:partial=>"profile", :assigns=>{:battles=>@battles})
+    profile_main render(:partial=>"profile_narrow", :assigns=>{:battles=>@battles[0..3]})
+  end
+  
 end

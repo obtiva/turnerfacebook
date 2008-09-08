@@ -1,4 +1,6 @@
 class AttacksController < ApplicationController
+  skip_before_filter :ensure_authenticated_to_facebook,
+                      :only => [:index, :tab]
   def new
     if params[:from]
       current_user.update_attribute(:sensei, User.find(params[:from]))
@@ -43,6 +45,12 @@ class AttacksController < ApplicationController
     else
       @comments = @user.comments
     end
+  end
+  
+  def tab
+    @user = User.for(params[:fb_sig_profile_user])
+    @battles = @user.battles
+    render :action=>"tab",:layout=>"tab"
   end
 
 end

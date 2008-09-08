@@ -15,7 +15,7 @@ ActionController::Routing::Routes.draw do |map|
   
   # Use our new method as the default page
   map.battles '', :controller=>"attacks", :action=>"index"
-  map.comments 'battles/:user_id/comments', :controller => 'attacks', :action => 'index'
+  map.tab '/tab',:controller=>"attacks",:action=>"tab"  
   
   # Install the default route as the lowest priority.
   map.connect ':controller/:action/:id'
