@@ -11,5 +11,6 @@ class ProfilePublisherController < ApplicationController
       attack = Attack.new(params[:app_params][:attack])
       @attack = current_user.attack(@defender, attack.move)
       render_publisher_response(AttackPublisher.create_attack_feed(@attack))
+    end
   end
 end
